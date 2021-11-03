@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8005EF5526394D01004AE737 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005EF5426394D01004AE737 /* MainScreen.swift */; };
+		8005EF5926394D9C004AE737 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005EF5826394D9C004AE737 /* OnBoarding.swift */; };
 		800AD9ED2633E5EC00EB7F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD9EC2633E5EC00EB7F39 /* AppDelegate.swift */; };
 		800AD9EF2633E5EC00EB7F39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD9EE2633E5EC00EB7F39 /* SceneDelegate.swift */; };
 		800AD9F12633E5EC00EB7F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD9F02633E5EC00EB7F39 /* ViewController.swift */; };
@@ -14,9 +16,19 @@
 		800AD9F72633E5EC00EB7F39 /* BLBWaterTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 800AD9F52633E5EC00EB7F39 /* BLBWaterTracker.xcdatamodeld */; };
 		800AD9F92633E5ED00EB7F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800AD9F82633E5ED00EB7F39 /* Assets.xcassets */; };
 		800AD9FC2633E5ED00EB7F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AD9FA2633E5ED00EB7F39 /* LaunchScreen.storyboard */; };
+		800ADA052633E94500EB7F39 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800ADA042633E94500EB7F39 /* HistoryViewController.swift */; };
+		800ADA0A2633ED6300EB7F39 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800ADA092633ED6300EB7F39 /* SettingViewController.swift */; };
+		800ADA132633F41200EB7F39 /* DailyActivity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800ADA0F2633F41200EB7F39 /* DailyActivity+CoreDataClass.swift */; };
+		800ADA142633F41200EB7F39 /* DailyActivity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800ADA102633F41200EB7F39 /* DailyActivity+CoreDataProperties.swift */; };
+		800ADA152633F41200EB7F39 /* Configuration+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800ADA112633F41200EB7F39 /* Configuration+CoreDataClass.swift */; };
+		800ADA162633F41200EB7F39 /* Configuration+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800ADA122633F41200EB7F39 /* Configuration+CoreDataProperties.swift */; };
+		80847F2A263B9CF400CE0A91 /* OnBoarding_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80847F29263B9CF400CE0A91 /* OnBoarding_1.swift */; };
+		80847F2C263B9D1E00CE0A91 /* OnBoarding_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80847F2B263B9D1E00CE0A91 /* OnBoarding_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8005EF5426394D01004AE737 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		8005EF5826394D9C004AE737 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		800AD9E92633E5EC00EB7F39 /* BLBWaterTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLBWaterTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		800AD9EC2633E5EC00EB7F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		800AD9EE2633E5EC00EB7F39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +38,14 @@
 		800AD9F82633E5ED00EB7F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		800AD9FB2633E5ED00EB7F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		800AD9FD2633E5ED00EB7F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800ADA042633E94500EB7F39 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		800ADA092633ED6300EB7F39 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		800ADA0F2633F41200EB7F39 /* DailyActivity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyActivity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		800ADA102633F41200EB7F39 /* DailyActivity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyActivity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		800ADA112633F41200EB7F39 /* Configuration+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Configuration+CoreDataClass.swift"; sourceTree = "<group>"; };
+		800ADA122633F41200EB7F39 /* Configuration+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Configuration+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		80847F29263B9CF400CE0A91 /* OnBoarding_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding_1.swift; sourceTree = "<group>"; };
+		80847F2B263B9D1E00CE0A91 /* OnBoarding_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +62,10 @@
 		800AD9E02633E5EC00EB7F39 = {
 			isa = PBXGroup;
 			children = (
+				800ADA0F2633F41200EB7F39 /* DailyActivity+CoreDataClass.swift */,
+				800ADA102633F41200EB7F39 /* DailyActivity+CoreDataProperties.swift */,
+				800ADA112633F41200EB7F39 /* Configuration+CoreDataClass.swift */,
+				800ADA122633F41200EB7F39 /* Configuration+CoreDataProperties.swift */,
 				800AD9EB2633E5EC00EB7F39 /* BLBWaterTracker */,
 				800AD9EA2633E5EC00EB7F39 /* Products */,
 			);
@@ -61,6 +85,12 @@
 				800AD9EC2633E5EC00EB7F39 /* AppDelegate.swift */,
 				800AD9EE2633E5EC00EB7F39 /* SceneDelegate.swift */,
 				800AD9F02633E5EC00EB7F39 /* ViewController.swift */,
+				8005EF5826394D9C004AE737 /* OnBoarding.swift */,
+				80847F29263B9CF400CE0A91 /* OnBoarding_1.swift */,
+				80847F2B263B9D1E00CE0A91 /* OnBoarding_2.swift */,
+				8005EF5426394D01004AE737 /* MainScreen.swift */,
+				800ADA042633E94500EB7F39 /* HistoryViewController.swift */,
+				800ADA092633ED6300EB7F39 /* SettingViewController.swift */,
 				800AD9F22633E5EC00EB7F39 /* Main.storyboard */,
 				800AD9F82633E5ED00EB7F39 /* Assets.xcassets */,
 				800AD9FA2633E5ED00EB7F39 /* LaunchScreen.storyboard */,
@@ -140,10 +170,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800ADA162633F41200EB7F39 /* Configuration+CoreDataProperties.swift in Sources */,
 				800AD9F12633E5EC00EB7F39 /* ViewController.swift in Sources */,
+				800ADA152633F41200EB7F39 /* Configuration+CoreDataClass.swift in Sources */,
+				8005EF5526394D01004AE737 /* MainScreen.swift in Sources */,
 				800AD9ED2633E5EC00EB7F39 /* AppDelegate.swift in Sources */,
+				80847F2C263B9D1E00CE0A91 /* OnBoarding_2.swift in Sources */,
+				80847F2A263B9CF400CE0A91 /* OnBoarding_1.swift in Sources */,
 				800AD9EF2633E5EC00EB7F39 /* SceneDelegate.swift in Sources */,
+				800ADA132633F41200EB7F39 /* DailyActivity+CoreDataClass.swift in Sources */,
+				800ADA142633F41200EB7F39 /* DailyActivity+CoreDataProperties.swift in Sources */,
+				800ADA052633E94500EB7F39 /* HistoryViewController.swift in Sources */,
 				800AD9F72633E5EC00EB7F39 /* BLBWaterTracker.xcdatamodeld in Sources */,
+				8005EF5926394D9C004AE737 /* OnBoarding.swift in Sources */,
+				800ADA0A2633ED6300EB7F39 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

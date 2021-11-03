@@ -10,13 +10,32 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        if launchedBefore  {
+                    //print("Not first launch.")
+                    let vc = storyboard.instantiateViewController (withIdentifier: "MainScreen") as! MainScreen
+                    window = UIWindow(windowScene: windowScene)
+                    window?.rootViewController = vc
+                    window?.makeKeyAndVisible()
+                    
+        // Semua controller /UIViewController di storyboard dengan identifier ini akan saya jadikan dia ViewController
+                } else {
+                    //print("First launch, setting UserDefault.")
+                    let vc = storyboard.instantiateViewController (withIdentifier: "OnBoarding") as! OnBoarding
+                    window = UIWindow(windowScene: windowScene)
+                    window?.rootViewController = vc
+                    window?.makeKeyAndVisible()
+                    UserDefaults.standard.set(true, forKey: "launchedBefore")
+                }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
